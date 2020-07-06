@@ -1,0 +1,141 @@
+body {
+	font-family: "Open Sans", Sans Serif;
+	color: #3B3B3B;
+	background-color: #DAF7F6;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+header {
+	background-color: #fff;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	font-family: "Montserrat", Sans Serif;
+	text-transform: uppercase;
+	color: #F16059;
+	font-size: 48px;
+	padding: 40px 0;
+	margin: 0;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.card {
+	margin: 25px 0;
+	overflow: auto;
+}
+
+.image {
+	float: left;
+	width: 500px;
+	height: 550px;
+}
+
+.recipe {
+	float: left;
+	padding: 20px;
+	width: 500px;
+	height: 550px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+#cookies .image {
+	background-image: url("../img/gluten-free-sugar-cookies.jpg");
+	background-size: cover;
+}
+
+#pesto .image {
+	background-image: url("../img/nut-free-pesto.jpg");
+	background-size: cover;
+}
+
+#salad .image {
+	background-image: url("../img/watermelon-salad.jpg");
+	background-size: cover;
+}
+
+.recipe h2 {
+	font-size: 24px;
+	font-family: "Montserrat", Sans Serif;
+	color: #F16059;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.time {
+	border: 1px solid #3B3B3B;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.time p {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.prep, .cook, .total {
+	width: 33.3333%;
+	float: left;
+	padding-left: 6px;
+	box-sizing: border-box;
+}
+
+.cook {
+	border-left: 1px solid #3B3B3B;
+	border-right: 1px solid #3B3B3B;
+}
+
+.time img {
+	width: 15px;
+	height: auto;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.time strong {
+	font-family: "Montserrat", Sans Serif;
+}
+
+.columns {
+	overflow: auto;
+}
+
+.directions {
+	float: left;
+	width: 240px;
+	line-height: 18px;
+	padding-left: 0;
+}
+
+.ingredients {
+	float: left;
+	width: 205px;
+	margin-right: 10px;
+	padding-left: 0;
+	line-height: 18px;
+	list-style-type: square;
+}
+
+.ingredients ul {
+	list-style-type: square;
+}
+
+.recipe h3 {
+	padding: 10px;
+	border-top: 1px solid #3B3B3B;
+	border-bottom: 1px solid #3B3B3B;
+	font-family: "Montserrat", San Serif;
+	color: #F16059;
+	text-transform: uppercase;
+}
